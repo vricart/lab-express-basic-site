@@ -5,6 +5,7 @@ blue: #0300AD
 yellow: #FDDE06 */
 
 
+/* HOME PAGE */
 
 * {
     margin: 0px;
@@ -18,7 +19,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     min-height: 8vh;
-    background-color: #EAEFE9;
+    /* background-color: #EAEFE9; */
     font-family: 'DM Serif Display', serif;
 }
 
@@ -135,4 +136,40 @@ nav {
 
 .toggle .line3 {
     transform: rotate(45deg) translate(-5px, -6px)
+}
+
+
+
+
+
+
+
+/* ABOUT PAGE */
+
+.bio-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.bio-p-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+#bio-pic {
+    max-width: 50%;
+    padding: 1.5rem;
+}
+
+
+.p-bio {
+    margin: 0 0 10px;
+    line-height: 1.5em;
 }

@@ -15,7 +15,7 @@ yellow: #FDDE06 */
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     min-height: 8vh;
     background-color: #EAEFE9;
@@ -23,11 +23,12 @@ nav {
 }
 
 
-.logo {
+.title {
     color: green;
     text-transform: uppercase;
     letter-spacing: 5px;
     font-size: 20px;
+    margin: 20px;
 }
 
 .nav-links {
@@ -59,7 +60,7 @@ nav {
 .burger-menu div {
     width: 25px;
     height: 3px;
-    /* background-color: blue; */
+    background-color: black;
     margin: 5px;
     transition: all 0.3s ease;
 }
@@ -134,16 +135,4 @@ nav {
 
 .toggle .line3 {
     transform: rotate(45deg) translate(-5px, -6px)
-}
-
-.line1 {
-    background-color: #E70503;
-}
-
-.line2 {
-    background-color: #FDDE06;
-}
-
-.line3 {
-    background-color: #0300AD;
 }
